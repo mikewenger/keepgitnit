@@ -21,7 +21,7 @@ export default function Navbar({ variant = "light" }: Props) {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.png" alt="KeepGitnIt logo" width={44} height={44} className="rounded-full" />
+          <Image src="/logo.png" alt="KeepGitnIt logo" width={72} height={72} className="rounded-full" />
           <span className={`text-xl font-black tracking-tight ${textColor}`}>KeepGitnIt.Com</span>
         </Link>
 
