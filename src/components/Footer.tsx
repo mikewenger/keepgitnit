@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-3 mb-3">
-            <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center overflow-hidden flex-shrink-0">
-              <Image src="/logo.png" alt="KeepGitnIt logo" width={80} height={80} className="object-contain w-full h-full" />
+            <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0">
+              <Image src="/logo.png" alt="KeepGitnIt logo" width={80} height={80} className="object-cover w-full h-full" />
             </div>
             <span className="text-xl font-black tracking-tight">KeepGitnIt.Com</span>
           </div>

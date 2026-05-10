@@ -21,8 +21,8 @@ export default function Navbar({ variant = "light" }: Props) {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center overflow-hidden flex-shrink-0">
-            <Image src="/logo.png" alt="KeepGitnIt logo" width={96} height={96} className="object-contain w-full h-full" />
+          <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
+            <Image src="/logo.png" alt="KeepGitnIt logo" width={96} height={96} className="object-cover w-full h-full" />
           </div>
           <span className={`text-xl font-black tracking-tight ${textColor}`}>KeepGitnIt.Com</span>
         </Link>
